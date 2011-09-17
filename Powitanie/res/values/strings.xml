@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Powitanie!</string>
+    <string name="app_name">Powitanie</string>
+    <string name="name_label">Podaj swoje imię</string>
+    <string name="accept_button">Przywitaj się</string>
+    <string name="hello_label">Cześć</string>
+    <string name="greeting_title">Przywitanie</string>
+</resources>
