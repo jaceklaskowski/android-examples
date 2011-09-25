@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, Lokatnik!</string>
-    <string name="app_name">Lokatnik</string>
+    <string name="hello">Witaj w Lokatniku!</string>
+    <string name="app_name_short">Lokatnik</string>
+    <string name="welcome_name">Lokatnik</string>
     <string name="about_label">About</string>
     <string name="exit_label">Exit</string>
     <string name="about_title">About Lokatnik/Lokatalog</string>
+    <string name="new_deposit_activity_label">Lokatnik :: Nowa lokata</string>
+    <string name="new_deposit_label">Nowa lokata</string>
     <string name="about_text">\
-    My first Android app.
-    You can run it at no charge.
-    Just let me know you use it.</string>
+	Pierwsza aplikacja na Androida autorstwa Jacka Laskowskiego.\n
+	Napisz na jacek@japila.pl, jeśli uważasz, że jest użyteczna.</string>
+	<string name="deposit_name">Nazwa lokaty</string>
+	<string name="bank_name">Nazwa banku</string>
+	<string name="procent_text">Oprocentowanie</string>
+	<string name="amount_text">Kwota</string>
+	<string name="save_label">Zapisz</string>
+	<string name="discard_label">Porzuć</string>
+	<string name="new_deposit_title">Nowa lokata</string>
 </resources>

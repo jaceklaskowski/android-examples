@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/deposit_name"></TextView>
+    <EditText android:id="@+id/editText1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bank_name"></TextView>
+    <EditText android:id="@+id/editText2" android:layout_height="wrap_content" android:layout_width="161dp"></EditText>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/procent_text"></TextView>
+    <EditText android:id="@+id/editText3" android:layout_height="wrap_content" android:inputType="number" android:layout_width="160dp"></EditText>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/amount_text"></TextView>
+    <EditText android:id="@+id/editText4" android:layout_height="wrap_content" android:inputType="number" android:layout_width="158dp"></EditText>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/save_label" android:id="@+id/save"></Button>
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/discard_label" android:id="@+id/discard"></Button>
+    </LinearLayout>
+    
+</LinearLayout>
