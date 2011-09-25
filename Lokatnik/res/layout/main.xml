@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/bgcolor" android:orientation="vertical">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/hello"
+		android:layout_gravity="center_horizontal" />
+	<Button android:layout_margin="10dip" android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="@string/about_label" android:layout_width="125dp" android:id="@+id/about_button"></Button>
+	<Button android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/exit_label"
+		android:layout_width="125dp" android:id="@+id/exit_button"></Button>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Lokatnik!</string>
+    <string name="app_name">Lokatnik</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    <string name="about_title">About Lokatnik/Lokatalog</string>
+    <string name="about_text">\
+    My first Android app.
+    You can run it at no charge.
+    Just let me know you use it.</string>
+</resources>
